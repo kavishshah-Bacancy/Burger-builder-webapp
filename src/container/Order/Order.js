@@ -33,7 +33,6 @@ function Order() {
             key={orders.key}
             customerDetails={orders.data.customer}
             ingredients={orders.data.ingredients}
-            deliveryMethod={orders.data.deliveryMethod}
             price={orders.data.price}
           />
         );

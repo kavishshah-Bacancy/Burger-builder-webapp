@@ -42,7 +42,7 @@ function OrderDisplay(props) {
         <p>
           Delivery Method<br></br>
           <span style={{ color: "lightseagreen" }}>
-            <strong>{props.deliveryMethod}</strong>
+            <strong>{props.customerDetails.deliveryMethod}</strong>
           </span>
         </p>
       </div>
